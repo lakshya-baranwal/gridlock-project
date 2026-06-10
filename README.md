@@ -1,4 +1,4 @@
-# GridLock Intelligence
+# GridLock Intelligence (Built using Antigravity)
 
 **Traffic Demand Prediction System — Stacking Ensemble V8**
 
@@ -247,11 +247,9 @@ python scripts/precompute_analytics.py
 ---
 
 ## Deployment
-
-See the **Deployment** section below for step-by-step instructions on Docker, cloud platforms, and production hardening.
-
+TBD
 ---
 
 ## License
 
-This project is for competition/research purposes.
+This project is built for competition/research purposes.
