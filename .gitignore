@@ -1,0 +1,38 @@
+# ── Python cache ─────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# ── Virtual environment ───────────────────────────────────────────────────────
+venv/
+.venv/
+env/
+
+# ── Model artifacts (too large for git — store on HF Hub) ────────────────────
+model_artifacts/*.pkl
+
+# ── Dataset (not redistributable) ────────────────────────────────────────────
+dataset/
+
+# ── Logs and temp files ───────────────────────────────────────────────────────
+*.log
+nohup.out
+/tmp/
+
+# ── OS files ─────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── IDE files ─────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+
+# ── Docker ────────────────────────────────────────────────────────────────────
+docker-compose.override.yml
+
+# ── Secrets ───────────────────────────────────────────────────────────────────
+.env
+.env.*
+secrets.toml
