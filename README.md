@@ -23,11 +23,11 @@ Training time: ~34 minutes · Dataset: 77,299 rows · 1,249 unique geohash zones
 
 | Dashboard | Prediction |
 |------------|------------|
-| ![](screenshots/screenshot_01.png) | ![](screenshots/screenshot_02.png) |
+| ![](screenshots/screenshot_01.png) | ![](screenshots/screenshot_04.png) |
 
-| Analytics | Performance |
+| Analytics | Analytics |
 |------------|------------|
-| ![](screenshots/screenshot_03.png) | ![](screenshots/screenshot_04.png) |
+| ![](screenshots/screenshot_03.png) | ![](screenshots/screenshot_02.png) |
 
 ### Architecture
 
