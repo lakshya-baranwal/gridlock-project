@@ -19,7 +19,7 @@ A production-ready machine learning system for real-time urban traffic demand fo
 Training time: ~34 minutes · Dataset: 77,299 rows · 1,249 unique geohash zones
 
 ---
-## Screenshots
+## Dashboard
 
 | Dashboard | Prediction |
 |------------|------------|
