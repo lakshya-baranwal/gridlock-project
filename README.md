@@ -1,6 +1,6 @@
-# GridLock Intelligence (Built using Antigravity)
+# GridLock Project (Built using Antigravity)
 
-**Traffic Demand Prediction System — Stacking Ensemble V8**
+**Traffic Demand Prediction - Stacking Ensemble**
 
 A production-ready machine learning system for real-time urban traffic demand forecasting, built with a stacking ensemble of LightGBM, XGBoost, and CatBoost base models and a Feature-Aware LightGBM meta-learner.
 
