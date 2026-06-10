@@ -60,30 +60,30 @@ project/
 │       └── predict.py              # Pydantic request/response models
 │
 ├── streamlit_app/                  # Interactive dashboard
-│   ├── app.py                      # Entry point, sidebar navigation
+│   ├── app.py                      
 │   ├── pages/
 │   │   ├── dashboard.py            # Analytics charts and KPI cards
-│   │   ├── prediction.py           # Live prediction form + what-if simulator
-│   │   └── architecture.py        # Model architecture deep dive
+│   │   ├── prediction.py          
+│   │   └── architecture.py        # Model architecture
 │   └── utils/
 │       └── data_loader.py          # Cached analytics.json accessors
 │
-├── model_artifacts/                # Trained model files (not tracked by git)
+├── model_artifacts/                # Trained model files (these are not tracked by git)
 │   ├── lgb_fold_{1..5}.pkl
 │   ├── xgb_fold_{1..5}.pkl
 │   ├── cb_fold_{1..5}.pkl
 │   ├── meta_lgb_fold_{1..5}.pkl
 │   ├── ohe_encoder.pkl
-│   └── analytics.json              # Pre-computed dashboard data
+│   └── analytics.json         
 │
 ├── scripts/
 │   └── precompute_analytics.py     # One-time analytics generation from train.csv
 │
 ├── dataset/
-│   └── train.csv                   # Training data (not tracked by git)
+│   └── train.csv                   # Training data (these are not tracked by git)
 │
 ├── requirements.txt
-└── run.sh                          # One-command launcher
+└── run.sh                          # Start services using one command
 ```
 
 ---
