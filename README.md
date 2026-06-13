@@ -15,7 +15,9 @@ A production-ready machine learning system for real-time urban traffic demand fo
 | CatBoost | 0.95354 | 5-fold, 2500 estimators |
 | **Stacking V8** | **0.95612** | Meta-LightGBM, 32 features |
 
-**Competition Score: 95.61 / 100**  
+> **Note:** The reported OOF (R^2) score of 0.956 was obtained through 5-fold cross-validation on the training data for local model selection, while the final submitted model achieved a competition leaderboard score of **91.99/100** on the hidden evaluation set.
+
+**Competition Score: 91.99 / 100**  
 Training time: ~34 minutes · Dataset: 77,299 rows · 1,249 unique geohash zones
 
 ---
